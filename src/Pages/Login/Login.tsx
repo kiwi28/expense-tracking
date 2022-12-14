@@ -62,13 +62,18 @@ export const Login: React.FC = () => {
 							>
 								Login
 							</Button>
-							<Text>
+							<Text fontSize="md">
 								Don't have an account yet ?{"  "}
 								<Link color="teal.300" as={RouterLink} to="/register">
 									Register
 								</Link>
 							</Text>
-							<Link color="teal.300" as={RouterLink} to="/register">
+							<Link
+								color="teal.300"
+								as={RouterLink}
+								to="/register"
+								fontSize="md"
+							>
 								Forgot password?
 							</Link>
 						</VStack>
