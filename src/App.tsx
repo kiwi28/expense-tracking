@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./Layouts/Layout";
 import { Dashboard } from "./Pages/Dashboard/Dashboard";
 import { Login } from "./Pages/Login";
+import { Register } from "./Pages/Register";
 
 function App() {
 	return (
@@ -21,5 +22,3 @@ function App() {
 }
 
 export default App;
-
-const Register: React.FC = () => <h2>register</h2>;
